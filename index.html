@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Convert currency to sum</title>
+   <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+   <main>
+      <section class="hero">
+         <div class="hero-wrapper">
+            <form class="js-form" action="#" method="POST">
+               <input type="number" min="0" class="hero-input js-input" placeholder="Enter your money">
+               <select class="hero-select js-select">
+                  <option value="Choose currency" selected hidden>Choose currency</option>
+                  <option value="12570">USD</option>
+                  <option value="13522">EUR</option>
+                  <option value="142">RUB</option>
+                  <option value="146">SOM</option>
+                  <option value="77">JPY</option>
+                  <option value="8388">AUD</option>
+                  <option value="9196">CAD</option>
+               </select>
+               <button type="submit" class="hero-btn js-btn">Convert</button>
+            </form>
+            <h1 class="hero-title">Converted money:</h1>
+            <output class="hero-output js-output"></output>
+         </div>
+      </section>
+   </main>
+
+
+   <script src="./main.js"></script>
+</body>
+</html>
